@@ -21,3 +21,14 @@ body{
     text-decoration: none;
 }
 
+.hero{
+    /* background-image: url(../img/coffee-hero.jpg);
+    background-position: center;
+    background-size: cover; */
+    width: 100%;
+    height: 80vh;
+}
+
+.hero-card{
+    color: white;
+}
