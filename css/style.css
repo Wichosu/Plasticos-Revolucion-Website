@@ -18,7 +18,11 @@ body{
     width: 55%;
     padding: 0;
     list-style: none;
+}
+
+.navbar-list{
     text-decoration: none;
+    color: black;
 }
 
 .hero{
@@ -30,5 +34,10 @@ body{
 }
 
 .hero-card{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    text-align: center;
+    justify-content: center;
     color: white;
 }
