@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: #ccc;
+    color: black;
 }
 
 .header{
@@ -46,12 +47,16 @@ body{
 .product-card{
     display: flex;
     justify-content: center;
+    width: 60vw;
+    height: 40vh;
+    margin: 20vh auto;
 }
 
 .product-image-container{
-    width: 35vw;
-    height: 35vh;
+    width: inherit;
+    height: inherit;
     border: 2px solid black;
+    margin: 0;
 }
 
 .product-image{
@@ -61,4 +66,19 @@ body{
 
 .product-card-text{
     border: 2px solid black;
+    text-align: center;
 }
+
+.product-card-text-contact{
+    text-decoration: none;
+    color: black;
+}
+
+/* .product-card-text-contact{
+    display: flex;
+    justify-content: center;
+}
+
+.product-card-text-contact-tagp{
+    margin: 5px;
+} */
