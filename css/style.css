@@ -4,14 +4,12 @@ body{
     background: #fafafa;
     color: black;
 }
-.wrapper{
-    width: 900px;
-    margin: 0 auto;
-}
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 900px;
+    margin: 0 auto;
 }
 
 .navbar{
@@ -43,13 +41,21 @@ body{
     justify-content: center;
     color: white;
 }
-
+.product-a, .product-b{
+    padding: 40px 0;
+}
+.product-a{
+    background: royalblue;
+}
+.product-b{
+    background: salmon;
+}
 .product-card{
     display: flex;
     justify-content: center;
     width: 800px;
     height: 250px;
-    margin: 40px auto;
+    margin: 0 auto;
     border: 2px solid black;
     border-radius: 20px;
     overflow: hidden;
@@ -77,11 +83,14 @@ body{
     color: blue;
 }
 .contact{
+    background: rosybrown;
+    padding: 50px 0;
+}
+.contact-wrapper{
     display: flex;
     justify-content: center;
     width: 900px;
-    margin: 50px auto;
-    background: rgba(255, 255, 255, .7);
+    margin: 0 auto;
 }
 .labels{
     position: relative;
