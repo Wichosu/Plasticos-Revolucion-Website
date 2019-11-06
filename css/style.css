@@ -37,7 +37,9 @@ body{
     text-decoration: none;
     color: var(--primary-text);
 }
-
+.navbar-list:hover{
+    cursor: pointer;
+}
 .hero{
     /* background-image: url(../img/coffee-hero.jpg);
     background-position: center;
