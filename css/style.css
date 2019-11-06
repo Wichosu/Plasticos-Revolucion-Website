@@ -1,10 +1,23 @@
+:root{
+    --dark-primary-color: #F57C00;
+    --light-primary-color: #FFE0B2;
+    --primary-color: #FF9800;
+    --text-icons: #212121;
+    --accent-colors: #8BC34A;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+}
 body{
     margin: 0;
     padding: 0;
-    background: #fafafa;
-    color: black;
+    background: var(--light-primary-color);
+    color: var(--primary-text);
 }
 .header{
+    background: var(--primary-color);
+}
+.header-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,7 +35,7 @@ body{
 
 .navbar-list{
     text-decoration: none;
-    color: black;
+    color: var(--primary-text);
 }
 
 .hero{
@@ -39,16 +52,15 @@ body{
     height: inherit;
     text-align: center;
     justify-content: center;
-    color: white;
 }
 .product-a, .product-b{
     padding: 40px 0;
 }
 .product-a{
-    background: royalblue;
+    background: rgba(255, 152, 0, .4);
 }
 .product-b{
-    background: salmon;
+    background: rgba(255, 152, 0, .4);
 }
 .product-card{
     display: flex;
@@ -56,7 +68,7 @@ body{
     width: 800px;
     height: 250px;
     margin: 0 auto;
-    border: 2px solid black;
+    border: 4px solid var(--accent-colors);
     border-radius: 20px;
     overflow: hidden;
 }
@@ -75,16 +87,16 @@ body{
 .product-card-text{
     width: 50%;
     text-align: center;
-    background: rgba(0, 0, 0, .1);
+    background: var(--light-primary-color);
 }
 
 .product-card-text-contact{
     text-decoration: none;
-    color: blue;
+    color: var(--secondary-text);
 }
 .contact{
-    background: rosybrown;
-    padding: 50px 0;
+    background: var(--divider-color);
+    padding: 20px 0;
 }
 .contact-wrapper{
     display: flex;
@@ -100,8 +112,6 @@ body{
     position: relative;
     left: -200px;
 }
-
-
 
 /* .product-card-text-contact{
     display: flex;
