@@ -97,6 +97,9 @@ body{
     text-align: center;
     background: var(--light-primary-color);
 }
+.product-card-text p{
+    font-size: 1.1em;
+}
 
 .product-card-text-contact{
     text-decoration: none;
@@ -115,6 +118,12 @@ body{
 .labels{
     position: relative;
     left: 100px;
+}
+.labels p{
+    font-size: 1.2em;
+}
+.labels h4{
+    font-size: 1.4em;
 }
 .map{
     position: relative;
