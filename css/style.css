@@ -25,7 +25,9 @@ body{
     height: 80px;
     margin: 0 auto;
 }
-
+.logo{
+    margin: 0;
+}
 .navbar{
     display: inherit;
     justify-content: space-evenly;
@@ -34,13 +36,15 @@ body{
     list-style: none;
     margin: 0;
 }
-
 .navbar-list{
     text-decoration: none;
-    color: var(--primary-text);
+    color: var(--primary-text);;
 }
 .navbar-list:hover{
     cursor: pointer;
+    color: var(--secondary-text);
+    position: relative;
+    top: -5px;
 }
 .hero{
     /* background-image: url(../img/coffee-hero.jpg);
