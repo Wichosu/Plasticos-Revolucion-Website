@@ -57,9 +57,9 @@ body{
     top: -5px;
 }
 .hero{
-    /* background-image: url(../img/coffee-hero.jpg);
+    background-image: url(../img/coffee-hero.jpg);
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
     width: 100%;
     height: 550px;
 }
