@@ -8,11 +8,21 @@
     --secondary-text: #757575;
     --divider-color: #BDBDBD;
 }
+html{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+}
 body{
     margin: 0;
     padding: 0;
     background: var(--light-primary-color);
     color: var(--primary-text);
+    font-family: sans-serif;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 900px;
 }
 .header{
     background: var(--primary-color);
@@ -125,9 +135,13 @@ body{
 .labels h4{
     font-size: 1.4em;
 }
+.labels a{
+    text-decoration: none;
+    color: var(--secondary-text);
+}
 .map{
     position: relative;
-    left: -200px;
+    left: -50px;
 }
 
 /* .product-card-text-contact{
@@ -138,3 +152,14 @@ body{
 .product-card-text-contact-tagp{
     margin: 5px;
 } */
+
+@media screen and (min-width: 1024px){
+    .wrapper{
+        width: 100%;
+    }
+}
+@media screen and (max-widht: 768px){
+    .wrapper{
+        height: 100vh;
+    }
+}
