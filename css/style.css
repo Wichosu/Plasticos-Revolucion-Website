@@ -76,7 +76,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 65vw;
     height: 35vh;
     margin: 8vh 0;
     border: 2px solid black;
@@ -86,11 +86,22 @@ body{
 .product-card-container{
     margin: 0;
     padding: 0;
-    width: 25vw;
+    width: 36vw;
     height: inherit;
 }
 
 .product-card-container img{
     width: inherit;
     height: inherit;
+}
+
+.product-card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+}
+
+.text{
+    margin: 2vh 0;
 }
