@@ -8,11 +8,20 @@ html, body{
     box-sizing: border-box;
 }
 
+body{
+    background: rgb(252, 165, 5);
+}
+
 /* main{
     display: grid;
     grid-template-columns: repeat(1,minmax(auto));
     grid-template-rows: repeat( 7,minmax(100vw));
 } */
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 .header{
     display: flex;
@@ -34,6 +43,7 @@ html, body{
 }
 
 .navbar a:hover{
+    transition: cubic-bezier(0.645, 0.045, 0.355, 1) 400ms;
     color: gray;
     cursor: pointer;
     position: relative;
@@ -45,4 +55,12 @@ html, body{
     top: 0;
     left: 20vw;
     margin: 0;
+}
+
+.hero-img-container{
+    margin: 0;
+}
+
+.hero-img{
+    background-image: url(/img/hero.JPG);
 }
