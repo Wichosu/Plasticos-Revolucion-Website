@@ -107,3 +107,12 @@ body{
 .text{
     margin: 2vh 0;
 }
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map{
+    align-self: center;
+}
