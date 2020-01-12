@@ -24,9 +24,12 @@ body{
 }
 
 .header{
+    position: sticky;
+    top: 0;
+    background: rgb(253, 187, 63);
     display: flex;
     justify-content: flex-end;
-    height: 15vh;
+    height: 10vh;
 }
 
 .navbar{
@@ -43,15 +46,15 @@ body{
 }
 
 .navbar a:hover{
-    transition: cubic-bezier(0.645, 0.045, 0.355, 1) 400ms;
-    color: gray;
+    transition: cubic-bezier(0.645, 0.045, 0.355, 1) 300ms;
+    color: rgb(255, 252, 49);
     cursor: pointer;
     position: relative;
-    top: -1vh;
+    top: -0.5vh;
 }
 
-.logo{
-    position: absolute;
+.logo-container{
+    position: fixed;
     top: 0;
     left: 20vw;
     margin: 0;
