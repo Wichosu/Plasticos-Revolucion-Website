@@ -9,7 +9,7 @@ html, body{
 }
 
 body{
-    background: rgb(252, 165, 5);
+    background: rgb(253, 187, 63);
 }
 
 /* main{
@@ -115,4 +115,5 @@ body{
 
 .map{
     align-self: center;
+    margin-bottom: 20px;
 }
