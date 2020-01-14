@@ -85,6 +85,11 @@ body{
     justify-content: center;
 }
 
+.product-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
 .product-card{
     display: flex;
     justify-content: center;
@@ -119,6 +124,10 @@ body{
 
 .text{
     margin: 2vh 0;
+}
+
+.description{
+    width: 450px;
 }
 
 .contact{
