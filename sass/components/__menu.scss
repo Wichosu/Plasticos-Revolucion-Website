@@ -1,0 +1,52 @@
+$background_color: #cbe2b0;
+$arrow_color: black;
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 50vw;
+    width: 50px;
+    height: 25px;
+    background-color: $background_color;
+
+    &__arrow{
+        margin: 5px auto;
+        width: 3px;
+        height: 16px;
+        background-color: $arrow_color;
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            width: 7.5px;
+            height: 3px;
+            background-color: $arrow_color;
+            transform: skewY(-40deg);
+        }
+
+        //Up arrow
+        /*  &::before{
+            content: '';
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            width: 7.5px;
+            height: 3px;
+            background-color: $arrow_color;
+            transform: skewY(40deg);
+        }*/
+
+        &::after{
+            content: '';
+            position: absolute;
+            top: 70%;
+            left: 35%;
+            width: 7.5px;
+            height: 3px;
+            background-color: $arrow_color;
+            transform: skewY(40deg);
+        }
+    }
+}
