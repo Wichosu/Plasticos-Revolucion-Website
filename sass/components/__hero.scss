@@ -4,6 +4,7 @@ $font_title: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 1;
+    margin: 5vh 0;
 
     &__logo{
         grid-column: 1/1;
@@ -16,5 +17,6 @@ $font_title: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
         grid-row: 1/1;
         margin: 3vh 5vw;
         font-family: $font_title;
+        font-size: 28pt;
     }
 }

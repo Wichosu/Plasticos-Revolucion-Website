@@ -1,5 +1,8 @@
+$background: rgb(246, 209, 134);
+
 body{
     margin: 0;
+    background-color: $background;
 }
 
 *{
@@ -8,3 +11,4 @@ body{
 
 @import "./components/_menu";
 @import "./components/_hero";
+@import "./components/_work";
