@@ -31,4 +31,41 @@ $radiant_border: rgba(246, 209, 134,1);
         text-align: justify;
         font-family: $font__title;
     }
+
+    &__slideshow{
+        position: relative;
+        width: 85vw;
+        margin: 0 auto;
+    }
+
+    /*&__slides{
+        display: none;
+    }*/
+
+    &__imgs{
+        width: 100%;
+    }
+
+    &__prev, &__next{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        padding: 10px;
+        color: black;
+        background-color: #cbe2b0;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0px 3px 3px 0px;
+        user-select: none;
+    }
+
+    &__next{
+        right: 0;
+        border-radius: 3px 0px 0px 3px;
+    }
+
+
 }

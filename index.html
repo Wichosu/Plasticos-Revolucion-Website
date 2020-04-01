@@ -23,11 +23,30 @@
                 <div class="work__radiant"></div>
                 <p class="work__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, pariatur nisi dignissimos necessitatibus voluptatibus, libero tempore, autem incidunt nostrum obcaecati a praesentium nam. Ipsa tenetur cum labore? Vero, illum iure?</p>
             </div>
-            <div class="work__carousel">
-                <img src="./img/hero.JPG" alt="">
+            <div class="work__slideshow">
+                <div class="work__slides work__fade">
+                    <div class="work__numtext">1 / 3</div>
+                    <img src="./img/front-banner.JPG" alt="" class="work__imgs">
+                    <div class="work__slidetext">Plasticos Revolucion</div>
+                </div>
+                <div class="work__slides work__fade">
+                    <div class="work__numtext">2 / 3</div>
+                    <img src="./img/hero.JPG" alt="" class="work__imgs">
+                    <div class="work__slidetext">Plasticos Revolucion</div>
+                </div>
+                <div class="work__slides work__fade">
+                    <div class="work__numtext">3 / 3</div>
+                    <img src="./img/side-car.JPG" alt="" class="work__imgs">
+                    <div class="work__slidetext">Plasticos Revolucion</div>
+                </div>
+                <a onclick="plusSlides(-1)" class="work__prev">&#10094;</a>
+                <a onclick="plusSlides(1)" class="work__next">&#10095;</a>
             </div>
-            <div class="work__arrowl"></div>
-            <div class="work__arrowr"></div>
+            <div class="work__dotgroup">
+                <span class="work__dot" onclick="currentSlide(1)"></div>
+                <span class="work__dot" onclick="currentSlide(2)"></div>
+                <span class="work__dot" onclick="currentSlide(3)"></div>
+            </div>
         </div>
         <div class="location">
             <div class="location__textbox">
