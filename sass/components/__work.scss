@@ -67,5 +67,45 @@ $radiant_border: rgba(246, 209, 134,1);
         border-radius: 3px 0px 0px 3px;
     }
 
+    &__slidetext{
+        color: black;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
 
+    &__numtext{
+        color: black;
+        position: absolute;
+        top: 0;
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    &__dotgroup{
+        text-align: center;
+    }
+
+    &__dot{
+        cursor: pointer;
+        height: 10px;
+        width: 8px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    &__fade{
+        animation: fade 1.5s;
+    }
+
+    @keyframes fade {
+        from{opacity: .4}
+        to{opacity: 1}
+    }
 }

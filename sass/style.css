@@ -1,3 +1,8 @@
+/* PALETTE COLOR 
+    main: f6d186 light orange
+    second: fcf7bb light yellow
+    third: cbe2b0 light green
+    last: f19292 light red*/
 body {
   margin: 0;
   background-color: #f6d186;
@@ -12,6 +17,8 @@ body {
   position: fixed;
   top: -1vh;
   left: 50vw;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 50px;
   height: 25px;
   background-color: #cbe2b0;
@@ -159,5 +166,62 @@ body {
 .work__next {
   right: 0;
   border-radius: 3px 0px 0px 3px;
+}
+
+.work__slidetext {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.work__numtext {
+  color: black;
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+.work__dotgroup {
+  text-align: center;
+}
+
+.work__dot {
+  cursor: pointer;
+  height: 10px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.work__fade {
+  -webkit-animation: fade 1.5s;
+          animation: fade 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=style.css.map */
